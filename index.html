@@ -174,7 +174,7 @@
               <li>Consectetur elit Voluptates, at.</li>
               <li>Consectetur elit Similique, architecto.</li>
             </ul>
-            <a class="button-one" href="about.html" target="_blank">
+            <a class="button-one" href="#" target="_blank">
               Read more
             </a>
           </div>
@@ -395,14 +395,14 @@
               consectetur adipisicing elit.
             </p>
 
-            <a class="button-one" href="about.html" target="_blank">
+            <a class="button-one" href="#" target="_blank">
               Read more
             </a>
           </div>
         </div>
 
         <div class="w-50">
-          <img src="assets/images/app-img-1.jpg" class="app-img-right" alt="hms dashboard" />
+          <img src="assets/images/app-img-1.jpg" class="app-img-right" alt="dashboard" />
         </div>
       </div>
     </div>
@@ -522,6 +522,28 @@
                 <label>Message</label>
                 <textarea class="form-control" id="message" name="message" placeholder=" "></textarea>
               </div>
+<div class="row">
+              <div class="form-group w-50 captcha-input">
+                <input type="text" required="" id="txtInput" placeholder="Enter Captcha" class="form-control">
+              </div>
+              <div class="form-group w-50 captcha-text">
+                <input type="text" id="txtCaptcha" value="73 45 802" style="
+                    background-image: url(assets/images/1.png);
+                    width: 80%;
+                    text-align: center;
+                    border: none;
+                    min-height: 40px;
+                    font-weight: bold;
+                    float: left;
+                    text-decoration: initial;
+                    font-size: 14px;
+                    padding-right: 0;
+                    padding-left: 0;
+                  ">
+                <img src="assets/images/refresh.png" type="a" onclick="DrawCaptcha();" value="Refresh"
+                  style="height: 20px; width: 20px; float: left">
+              </div>
+            </div>
 
               <div class="form-btn">
                 <button class="button-one" type="submit" value="check">
